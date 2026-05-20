@@ -3,12 +3,18 @@ nav {
     background-color: #ffff;
     border-bottom:1px solid #e5e7eb;
     padding: 18px 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-nav ul li {
+nav ul {
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
+    
 
 nav ul li a{
     text-decoration: none;
@@ -56,4 +62,87 @@ margin-bottom: 15px
     width: 650px;
     margin:0 auto 30px auto;
 
+}
+
+
+.btn {
+    display: inline-block;
+    padding:12px 22px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 8px;
+
+}
+
+.first{
+    background-color: white;
+    color: #1e2a78;
+
+}
+
+.first:hover{
+    background-color: #f3f4f6;
+}
+
+.second{
+border:  2px solid white;
+color: white
+}
+
+.second:hover {
+    background-color: white;
+    color: #1e2a78;
+
+}
+
+
+body {
+    background-color: #f5f7fb;
+    color: #222;
+    line-height: 1.6;
+
+}
+
+section{
+    margin: 60px auto;
+    background-color: white;
+    width: 1000px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+section h2{
+    font-size:  28px;
+    margin-bottom: 30px;
+    color: #1e2a78;
+
+}
+
+.skills span{
+display: inline-block;
+background-color: #eef2ff;
+padding: 8px 14px;
+border-radius: 20px;
+margin: 6px;
+font-size: 14px;
+color: #4338ca;
+
+
+}
+
+#services ul{
+    font-size: 17px;
+
+
+}
+
+
+footer{
+    text-align: center;
+    padding: 30px 20px;
+    color: #666;
+    font-size:14px ;
 }
